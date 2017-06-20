@@ -11,40 +11,69 @@
     <meta name="author" content="">
 
 
-    <title>Graham's Portfolio</title>
+    <title>Graham Stewart</title>
 
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/jumbotron-narrow.css">
     <link rel="stylesheet" href="css/portfolio2.css">
+
+
+    <script src="https://use.fontawesome.com/00f1aec9c7.js"></script>
+
+
     <!--
     -->
 
 <body>
 
 
+
 <div class="container">
     <div class="header clearfix">
 
+        <nav class="navbar navbar-default ">
+            <div class="container-fluid">
 
-        <nav class="nav nav-pills justify-content-end  ">
-            <a class="nav-link active" href="#About">About</a>
-            <a class="nav-link" href="#Portfolio">Portfolio</a>
-            <a class="nav-link " href="#Contact">Contact</a>
-            <a class="nav-link" href="#Links">Links</a>
-        </nav>
+                <nav class=" nav nav-pills justify-content-end  ">
+                    <a class="nav-link " href="#About">About</a>
+                    <a class="nav-link" href="#Portfolio">Portfolio</a>
+                    <a class="nav-link " href="#Contact">Contact</a>
+                    <a class="nav-link" href="#Links">Links</a>
+                </nav>
+
+            </div>
 
 
-        <h2 class="text-white">Graham's Portfolio</h2>
     </div>
 
-    <div class="jumbotron">
-        <h1 id="About">About</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus
-            commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+    <div class="jumbotron" id="About">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-warning"> Graham Stewart </h2>
+            </div>
+            <div class="col">
+                <img class="smaller-image thick-green-border" src="http://i.imgur.com/nmKSpNwh.jpg" alt="Graham">
+            </div>
+            <div class="col">
+                <h2 class="text-white"> Finance, oil and engineering veteran. Noob Python, Java, JavaScript & Data
+                    Science </h2>
+            </div>
+        </div>
     </div>
+
+
+    <!---->
+    <!--<div id="headerphoto" class="jumbotron">-->
+    <!--<ul class="row"> </ul>-->
+    <!--<h1 id="About" class="text-warning">About </h1>-->
+    <!--<h2 class="text-white">Graham Stewart</h2>-->
+    <!--<p id="lead">Finance, oil and engineering veteran. Noob Python, Java, JavaScript & Data Science.</p>-->
+    <!--<img class="smaller-image thick-green-border" src="http://i.imgur.com/nmKSpNwh.jpg" alt="Graham">-->
+
+    <!--<p></p>-->
+    <!--</div>-->
 
     <div class="jumbotron">
         <h1 id="Portfolio" class="text-warning">PORTFOLIO - thumbnails</h1>
@@ -57,11 +86,10 @@
                 <img class="card-img-top" src="http://i.imgur.com/No6VKbqm.jpg" alt="card image cap">
                 <div class="card-block">
                     <h4 class="card-title">John Mayall</h4>
-                    <p class="card-text">Tribute Page</p>
+                    <p class="card-text">Tribute Page 1 yet more text to see how the wrapping goes</p>
                     <p class="card-footer">
-                        <small class="text-muted">Last updated 5 mins ago</small>
+                        <small class="text-muted">Last updated 3 mins ago</small>
                     </p>
-
                 </div>
             </div>
 
@@ -74,6 +102,17 @@
                     <p class="card-footer">
                         <small class="text-muted">Last updated 3 mins ago</small>
                     </p>
+                </div>
+            </div>
+
+            <div class="card  ">
+                <img class="card-img-top" src="http://i.imgur.com/No6VKbqm.jpg" alt="card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">John Mayall</h4>
+                    <p class="card-text">Tribute Page</p>
+                    <p class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
 
                 </div>
             </div>
@@ -90,25 +129,13 @@
                 </div>
             </div>
 
-                        <div class="card  ">
-                <img class="card-img-top" src="http://i.imgur.com/No6VKbqm.jpg" alt="card image cap">
-                <div class="card-block">
-                    <h4 class="card-title">John Mayall</h4>
-                    <p class="card-text">Tribute Page</p>
-                    <p class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </p>
-
-                </div>
-            </div>
-
 
             <div class="card  ">
                 <img class="card-img-top" src="http://i.imgur.com/No6VKbqm.jpg" alt="card image cap">
                 <div class="card-block">
                     <h4 class="card-title">John Mayall</h4>
                     <p class="card-text">Tribute Page</p>
-                    <p class="card-footer">
+                    <p id="listitem" class="card-footer">
                         <small class="text-muted">Last updated 3 mins ago</small>
                     </p>
 
@@ -119,10 +146,16 @@
 
 
     <div class="jumbotron">
-        <h1 id="Contact">Contact</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus
-            commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+        <h1 id="Contact" class="text-warning">Contact</h1>
+        <p> commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <ul id="inline">
+            <li> graham.stewart1@yahoo.com <a class="fa fa-envelope fa-3x"></a></li>
+            <li> Twitter<a class="fa fa-twitter fa-3x" href="https://twitter.com/golflegend"></a></li>
+            <li> Github<a class="fa fa-github fa-3x" href="https://github.com/grahamstewart66/"></a></li>
+            <li> LinkedIn<a class="fa fa-linkedin fa-3x" href="https://www.linkedin.com/in/graham-stewart/"></a>
+            </li>
+        </ul>
+
     </div>
 
     <div class="jumbotron">
@@ -133,7 +166,7 @@
     </div>
 
 </div>
-</div>
+
 
 
 <footer class="footer">
