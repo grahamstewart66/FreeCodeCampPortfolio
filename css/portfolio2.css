@@ -1,16 +1,3 @@
-body {
-    background-image: url("https://img.buzzfeed.com/buzzfeed-static/static/2014-06/6/12/enhanced/webdr08/original-21313-1402070821-13.jpg");
-
-    background-image: url("https://c1.staticflickr.com/5/4239/35345563855_d3a2c1fe04_o.jpg");
-
-}
-
-/*
-.container{
-    display: inline-flex;
-    flex-direction: column;
-}
-*/
 
 .title {
     color: #c9302c;
@@ -36,7 +23,48 @@ body {
 
     text-align: left;
 }
+.ul{
+    display:flex;
+    font-size: larger;
+    justify-content:flex-end;
+    align-items: center;
+        background-color: #52c83b;
 
+}
+.li{
+    display:inline;
+
+    justify-content:flex-end;
+            background-color: #52c83b;
+}
+
+#listitem{
+
+    font-size: largest;
+    font-weight: 700;
+    color: white;
+       display:inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.fa{
+
+font-size: larger;
+}
+
+.card{
+    max-width: 300px;
+justify-content: center;
+    align-items: center;
+}
+
+.card-deck{
+
+justify-content: center;
+
+}
 
 .list-group-item{
     font-size:medium;
@@ -47,6 +75,7 @@ font-stretch:expanded ;
 
 .nav {
     background-color: floralwhite;
+    width: 800px;
 }
 
 .container {
@@ -58,7 +87,7 @@ font-stretch:expanded ;
 .jumbotron {
     background: rgba(5, 13, 4, 0.4);
     background-color: #1d1e1f;
-    padding-bottom: 20px;
+    padding: 100px 10px 100px 10px;
 
 }
 
@@ -77,3 +106,57 @@ p {
     text-align: center;
 
 }
+
+
+#inline li {
+    display:inline;
+       font-size: larger;
+        color: navajowhite;
+}
+
+.navbar {
+
+    font-size: larger;
+	position: fixed ;
+    text-align: center;
+    vertical-align: middle;
+    background-color: black;
+    width: 1120px;
+    padding: 2%;
+
+}
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 40%;
+  }
+
+    .smaller-image {
+    width: 250px;
+        padding: 10px;
+        height: 200px;
+        float:  right ;
+  }
+
+#lead{
+
+    width: 50%;
+    padding: 30px;
+        height: 100px;
+    vertical-align: middle;
+    text-align: bottom;
+
+  }
+#about{
+
+    padding: 30px;
+        height: 50px;
+
+
+    #headerphoto{
+               height: 300px;
+
+
+    }
